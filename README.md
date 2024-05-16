@@ -17,8 +17,6 @@ Ez a projekt egy atomreaktor kezelő programot valósít meg C# nyelven.
 ## Fájlok
 
 - Reaktor.cs: A C# forráskód.
-- utaslista.txt: A mentett utasok szöveges fájlja.
-- utazasok.txt: A mentett utazások szöveges fájlja.
 
 ## License
 
