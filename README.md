@@ -4,7 +4,7 @@ Ez a projekt egy atomreaktor kezelő programot valósít meg C# nyelven.
 
 ## Funkcionalitások
 
-- Atomreakktor elindítása.
+- Atomreaktor elindítása.
 - Atomreaktor leállítása.
 - Termelt energia és hőfok megtekintése.
 - Atomreaktor lehűtésére hűtővíz beengedése.
