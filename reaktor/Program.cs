@@ -73,6 +73,7 @@ namespace reaktor
             else
             {
                 Console.WriteLine("A reaktor le lett állítva.");
+                Console.WriteLine($"Összesen generált áram: {aktualisEnergia:F2} GW");
                 mukodes = false;
                 Thread.Sleep(2000);
                 Console.Clear();
@@ -222,6 +223,13 @@ namespace reaktor
                         reaktor.HutovizBeengedese();
                         break;
                     case 5:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("A program leáll");
+                        Console.WriteLine("3");
+                        Thread.Sleep(500);
+                        Console.WriteLine("2");
+                        Thread.Sleep(500);
+                        Console.WriteLine("1");
                         Environment.Exit(0);
                         break;
                     default:
@@ -232,6 +240,5 @@ namespace reaktor
                 }
             }
         }
-
     }
 }
